@@ -11,6 +11,9 @@ jobs:
       - run:
           command: npm run test
           name: Run tests
+      - run:
+          command: npm run coverage
+          name: Run Coverage
       - store_test_results:
          path: test-results
 
