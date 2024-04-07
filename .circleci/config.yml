@@ -1,0 +1,18 @@
+version: 2.1
+
+jobs:
+  hello-job:
+    docker:
+      - image: cimg/node:lts-alpine3.19 # the primary container, where your job's commands are run
+    steps:
+      - checkout # check out the code in the project directory
+      - run: echo "hello world" # run the `echo` command
+      - run: npm install # install dependencies
+      - run:
+          command: npm run test
+          name: Run tests
+
+workflows:
+  build_and_test:
+    jobs:
+      - hello-job
