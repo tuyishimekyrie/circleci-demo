@@ -9,7 +9,7 @@ jobs:
       - run: echo "hello world" # run the `echo` command
       - run: npm install # install dependencies
       - run:
-          command: npm run tests
+          command: npm run test
           name: Run tests
       - store_test_results:
          path: test-results
