@@ -1,6 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/8R7oZix5kFqT335tRheUTf/PHkw4iTRhaK3GdhPYJnTUk/tree/circleci-project-setup.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/8R7oZix5kFqT335tRheUTf/PHkw4iTRhaK3GdhPYJnTUk/tree/circleci-project-setup)
-
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/8R7oZix5kFqT335tRheUTf/PHkw4iTRhaK3GdhPYJnTUk/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/8R7oZix5kFqT335tRheUTf/PHkw4iTRhaK3GdhPYJnTUk/tree/main)
 
 
 
